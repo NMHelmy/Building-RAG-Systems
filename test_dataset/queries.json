@@ -1,0 +1,10 @@
+[
+    {
+        "query": "Tell me about AI.",
+        "expected_answers": ["Artificial Intelligence", "smart machines"]
+    },
+    {
+        "query": "What is machine learning?",
+        "expected_answers": ["Machine learning", "learn from data"]
+    }
+]
