@@ -48,7 +48,7 @@ def hierarchical_search(query, chunks, index_path='embeddings/index.faiss', mode
 
 def generate_answer(prompt):
     client = openai.OpenAI(
-        api_key="ngu-CQo6jVAeHt", 
+        api_key="API-KEY", 
         base_url="https://ngullama.femtoid.com/v1"
     )
     response = client.chat.completions.create(
@@ -60,7 +60,7 @@ def generate_answer(prompt):
 
 def rewrite_query(original_query):
     client = openai.OpenAI(
-        api_key="ngu-CQo6jVAeHt",  
+        api_key="API-KEY",  
         base_url="https://ngullama.femtoid.com/v1"
     )
     response = client.chat.completions.create(
